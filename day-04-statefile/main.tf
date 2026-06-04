@@ -1,3 +1,12 @@
+resource "aws_instance" "ec2" {
+  ami           = "ami-00e801948462f718a" # Example Amazon Linux 2023 AMI (ap-south-1)
+  instance_type = "t3.micro"
+  subnet_id     = aws_subnet.name.id
+
+  tags = {
+    Name = "terraform"
+  }
+}
 resource "aws_vpc" "name" {
   cidr_block = "10.0.0.0/24"
 
