@@ -59,4 +59,3 @@ resource "aws_lambda_function" "my_lambda" {
     aws_iam_role_policy_attachment.lambda_policy,
     aws_s3_object.lambda_zip
   ]
-}
