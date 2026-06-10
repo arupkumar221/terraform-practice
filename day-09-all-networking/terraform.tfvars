@@ -1,0 +1,5 @@
+vpc_cidr      = "10.0.0.0/16"
+subnet_cidr   = "10.0.1.0/24"
+ami_id        = "ami-0152204c1a187337c"
+instance_type = "t3.micro"
+bucket_name   = "arup-demo-bucket-12345"
