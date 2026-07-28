@@ -1,0 +1,21 @@
+body {
+  background: #f5f5f5;
+  font-family: Arial;
+}
+
+.container {
+  width: 450px;
+  margin: 120px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+}
